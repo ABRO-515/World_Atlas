@@ -15,12 +15,12 @@ export const Contact = () => {
   return (
     <>
       <main className="w-full h-full" >
-        <div className="lg:h-[60vh] lg:my-5 items-center justify-center  flex flex-col gap-10 my-18 mx-auto w-fit" >
+        <div className="lg:h-[60vh] lg:my-5 items-center justify-center  flex flex-col gap-10 my-18 mx-auto  w-fit" >
           <h1 className="text-center text-2xl font-semibold" >Contact Us</h1>
 
 
 
-          <form className="flex flex-col gap-8" action={handleSubmitForm}>
+          <form className="flex flex-col  gap-8" action={handleSubmitForm}>
             <input
               placeholder="Enter Your Name"
               className="border rounded-md pl-5 pr-16 text-left py-2 bg-transparent"

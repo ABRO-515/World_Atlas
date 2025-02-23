@@ -33,7 +33,7 @@ export const CountryDetails = () => {
       <main className="w-full h-full" >
         {individualCountry.map((val, index) => {
           return (
-            <div key={index} className="  p-9 md:px-16 lg:my-16 items-center justify-center  w-fit md:my-4 rounded-[45px] container-card md:mx-auto mx-6 my-8 gap-5 2xl:gap-56 xl:gap-24 flex flex-col xl:flex-row" >
+            <div key={index} className="  p-9 md:px-16 lg:my-16 items-center justify-center  w-fit md:my-4 rounded-[45px]  border border-[#3d3c3c] container-card md:mx-auto mx-6 my-8 gap-5 2xl:gap-56 xl:gap-24 flex flex-col xl:flex-row" >
             <img src={`${val.flags.svg}`} className="w-full max-w-[30rem] h-[17rem]" alt="" />
             <div className="flex flex-col gap-4 lg:w-[-webkit-fill-available]" >
               <h1 className="text-2xl mt-3 font-semibold" >{val.name.official}</h1>
