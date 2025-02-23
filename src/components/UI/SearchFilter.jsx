@@ -19,7 +19,7 @@ export const SearchFilter = ({ setFilter, filter, setSearch, search }) => {
 
 
                 {/*Search Input  */}
-                <div className="flex gap-3 items-center my-10 justify-center lg:justify-between lg:mx-16 " >
+                <div className="flex md:gap-3 md:flex-row flex-col gap-8 items-center my-10 justify-center lg:justify-between lg:mx-16 " >
                     <input
                         type="search"
                         placeholder="Search"
@@ -28,7 +28,7 @@ export const SearchFilter = ({ setFilter, filter, setSearch, search }) => {
                         onChange={handleInputChange}
                         className="border rounded-md pl-4 py-2 cursor-pointer" />
 
-                    <select name="All" className="py-2 border px-3 rounded-md bg-black text-white " value={filter} onChange={handleSelectChange} >
+                    <select name="All" className="py-2 border   px-3 rounded-md bg-black text-white " value={filter} onChange={handleSelectChange} >
                         <option value="All">All</option>
                         <option value="Africa">Africa</option>
                         <option value="Americas">Americas</option>

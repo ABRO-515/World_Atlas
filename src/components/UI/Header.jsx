@@ -14,7 +14,7 @@ export const Header = () => {
             <header className="w-full h-full bg-[#202020]" >
 
                 <div className=" border-b border-[#494749] " >
-                    <div className="navbar md:mx-24 mx-8  items-center md:py-8 py-4   text-white flex justify-between  ">
+                    <div className="navbar md:mx-24 mx-8  items-center md:py-8 py-6   text-white flex justify-between  ">
                         <h1 className="md:text-3xl text-2xl " >WorldAtlas</h1>
 
                         {/* Hidden on Mobile Devices */}
@@ -25,7 +25,7 @@ export const Header = () => {
                             <NavLink to="/contact" ><li className="cursor-pointer" >Contact</li></NavLink>
                         </ul>
 
-                        <div className="lg:hidden text-2xl" onClick={toggleMenu} >
+                        <div className="lg:hidden text-3xl" onClick={toggleMenu} >
                             {isOpen ? <IoClose /> : <GiHamburgerMenu />}
                         </div>
 
