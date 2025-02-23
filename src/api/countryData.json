@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": 1444216107,
+      "interestingFact": "The Great Wall of China is visible from space on rare occasions."
+    },
+    {
+      "id": 2,
+      "countryName": "Jordan",
+      "capital": "Amman",
+      "population": 10203140,
+      "interestingFact": "Petra was established as the capital of the Nabataean Kingdom."
+    },
+    {
+      "id": 3,
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": 213993437,
+      "interestingFact": "Christ the Redeemer is the largest Art-Deco sculpture in the world."
+    },
+    {
+      "id": 4,
+      "countryName": "Peru",
+      "capital": "Lima",
+      "population": 32971846,
+      "interestingFact": "Machu Picchu is an Incan citadel set high in the Andes Mountains."
+    },
+    {
+      "id": 5,
+      "countryName": "Mexico",
+      "capital": "Mexico City",
+      "population": 126190788,
+      "interestingFact": "Chichen Itza was a large pre-Columbian archaeological site built by the Maya civilization."
+    },
+    {
+      "id": 6,
+      "countryName": "Italy",
+      "capital": "Rome",
+      "population": 60262770,
+      "interestingFact": "The Roman Colosseum is an ancient amphitheater in Rome, known for hosting gladiatorial contests."
+    },
+    {
+      "id": 7,
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": 1380004385,
+      "interestingFact": "The Taj Mahal is a white marble mausoleum in Agra, built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal."
+    }
+  ]
+  
