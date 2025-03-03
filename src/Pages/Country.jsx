@@ -15,6 +15,7 @@ export const Country = () => {
   const [filter, setFilter] = useState("All");
   const [activeBtn, setActiveBtn] = useState(""); // for changing the color of the active btn
 
+  
   useEffect(() => {
     startTransition(async () => {
       const response = await CountryData();
